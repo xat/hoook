@@ -66,6 +66,16 @@ ee.fire('foo', { type: 'myEvent' }, function(err, ev) {
   // by default ev is an empty object {}.
 });
 
+// remove all hooks listening to 'foo'
+ee.unhook('foo');
+
+// remove a specific hook
+ee.unhook('foo', cb);
+
+// remove all hooks
+ee.unhook();
+
+
 ```
 
 ### Installation
