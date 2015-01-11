@@ -75,7 +75,6 @@ ee.unhook('foo', cb);
 // remove all hooks
 ee.unhook();
 
-
 ```
 
 ### Installation
