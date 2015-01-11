@@ -1,0 +1,23 @@
+{
+  "name": "hoook",
+  "version": "0.1.0",
+  "description": "hoook is an event emitter with async and priority support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "event emitter",
+    "async"
+  ],
+  "author": "Simon Kusterer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xat/hoook/"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0"
+  }
+}
